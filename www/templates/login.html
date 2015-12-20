@@ -1,0 +1,33 @@
+  <ion-view view-title="Login" class="input-color">
+    <ion-content class="padding" id="background">
+      <div >
+
+       <div class="list list-inset stretch">
+        <div class="img-align">
+            <img src="img/logo.png" class="img-responsive img-align" style="margin-bottom:10px">
+        </div>
+          <div class="input-margin">
+            <label class="item item-input input-margin stretch text-lable">
+                <input  type="text" placeholder="Username" ng-model="data.username" style="color:white;" required>
+            </label>
+            <label class="item item-input input-margin stretch text-lable">
+                <input style="color:white;" type="password" placeholder="Password" ng-model="data.password" required>
+            </label>
+          </div>
+        </div>
+        <button class="button-bg button button-block button-calm input-margin" ng-click="login()">Secure Login</button>
+         <div>
+            <div style="width:49%"></div>
+            <div style="text-align:center;  " >
+               <div>OR</div>
+            </div>
+           
+         <button class="button-bg button button-block button-calm input-margin" style="border-color:FF851D !important;" ng-click="signup()">New Account</button>
+       </div>
+      </div>
+
+
+    </ion-content>
+  </ion-view>
+
+ 
