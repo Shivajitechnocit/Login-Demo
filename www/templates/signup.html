@@ -1,5 +1,10 @@
   <ion-view view-title="Sign Up" class="input-color">
     <ion-content class="padding" id="background">
+     <ion-refresher
+    pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher>
+ 
       <div >
 
        <div class="list list-inset stretch">

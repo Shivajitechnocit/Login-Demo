@@ -46,6 +46,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/signup',
      controller:'CtrlSignup',
     templateUrl: 'templates/signup.html'
+  })
+    .state('ListPage', {
+    url: '/List_Page',
+     controller:'CtrlList',
+    templateUrl: 'templates/List_Page.html'
   });
 
   // Each tab has its own nav history stack:
