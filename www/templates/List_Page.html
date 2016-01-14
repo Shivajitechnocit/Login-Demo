@@ -1,15 +1,21 @@
 	<ion-view view-title="" id="background">
 	  <ion-content class="padding" style="margin-top:50px;" >
-				<div class="card">
-					   <div class="item item-avatar">
-					      <img src="img/advance-card-map-madison.png">
-					      <h2>Card Name</h2>
-					   </div>
-
-					   <div class="item item-body">
-					      <img class="full-image" src="img/advance-card-map-madison.png">
-					      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget pharetra tortor. Proin quis eros imperdiet, facilisis nisi in, tincidunt orci. Nam tristique elit massa, quis faucibus augue finibus ac.
-					</div>
-				</div>
+				   <div class="list list-inset stretch">
+			            <label class="item item-input input-margin stretch text-lable">
+			                <input  type="text" placeholder="Full Name" ng-model="data.fname"  required>
+			            </label>
+			            
+			             <label class="item item-input input-margin stretch text-lable">
+			                <input  type="email" placeholder="Email" ng-model="data.email"  required>
+			            </label>
+			             <label class="item item-input input-margin stretch text-lable">
+			                <input type="tel" placeholder="Mobile" ng-model="data.password" required>
+			            </label>
+           
+       				</div>
+     
+         		<div>
+           			<button class="button-bg button button-block button-calm input-margin" style="border-color:FF851D !important;"  ng-click="" >Apply</button>
+            	</div>
 	  </ion-content>
-	</ion-view>
+	</ion-view>		
